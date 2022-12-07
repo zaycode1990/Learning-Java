@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Cart {
 	private ArrayList<Product> items = new ArrayList<Product>();
 	private double total = 0;
-	private double taxRate = .10;
+	private double taxRate = 10.00;
 	    
 	   public void addItem(Product p){
 	        items.add(p);
